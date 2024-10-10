@@ -38,9 +38,12 @@ body {
 
 }
 .img-fluid{
-  max-height: 7rem  ;
+  display: flex  ;
+  height: 3rem;
 }
 .my-5.p-5.bg-info{    
   background-color:#595b5f !important;}
+
+
 
 
