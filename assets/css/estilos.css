@@ -2,13 +2,22 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.my-5.fw-semibold {
+  text-shadow: 
+  -1px -1px 0 black,  /* Sombra hacia la izquierda arriba */
+   1px -1px 0 black,  /* Sombra hacia la derecha arriba */
+  -1px  1px 0 black,  /* Sombra hacia la izquierda abajo */
+   1px  1px 0 black;; 
+
+}
+
 /* Hero Section */
 
 #Hero-Section {
   background-image: url("../img/279784700_527994868714704_6295935055322910019_n.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: right bottom;
 }
 
 /* Mis trabajos */
