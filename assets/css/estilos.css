@@ -16,7 +16,7 @@ body {
 #Mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
   background-position: center;
 }
 
@@ -40,3 +40,7 @@ body {
 .img-fluid{
   max-height: 7rem  ;
 }
+.my-5.p-5.bg-info{    
+  background-color:#595b5f !important;}
+
+
